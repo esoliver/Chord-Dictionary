@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p.header {
+	background-image: url("HNK-22SC-1.jpg");
+	max-width: 100%;
+	height: auto;
+	opacity: 0.5;
+	z-index: -1;
+	text-align: center;
+	color: #566D7E;;
+	padding: 50px;
+	font-size: 30px;
+}
