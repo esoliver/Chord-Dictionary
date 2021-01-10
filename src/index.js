@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import DropdownExampleSelection from './App';
-import {ChordToneFunction} from './App';
 import reportWebVitals from './reportWebVitals';
+import App from './App.js';
 
 ReactDOM.render(
   <React.StrictMode>
-  	<DropdownExampleSelection />
-  	<ChordToneFunction />
+  	<App />
   </React.StrictMode>,
   document.getElementById('root')
 );

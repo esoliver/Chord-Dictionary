@@ -25,17 +25,19 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Chord Dictionary</title>
+    <title>Guitar Chord Dictionary</title>
+    <script src="./index.js"></script>
   </head>
-  <body>
+  <body style="background-color:#4C5454; text-align:center">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div>
-      <p class="header">Chord Dictionary</p>
+      <p class="header">Guitar Chord Dictionary</p>
+    </div>
+    <div>
+      <img src="images/template.jpg" style="width: 75%">
     </div>
     <div id="root"></div>
-    <div>
-      <p>test</p>
-    </div>
-    <script src="./index.js"></script>
+    <div><ins class="scales_chords_api" chord="D#Maj7" output="sound"></ins></div>
+    <script async type="text/javascript" src="https://www.scales-chords.com/api/scales-chords-api.js"></script>
   </body>
 </html>
